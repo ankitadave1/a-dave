@@ -23,6 +23,8 @@ public class ParallelTest2 {
         Thread.sleep(1000);
         Assert.assertEquals(driver.getTitle(),"nopCommerce demo store");
         Thread.sleep(5000);
+        System.out.println("adi dave");
+
     }
     @AfterMethod
     void CloseBrowser(){
